@@ -18,6 +18,7 @@ const HomeStats = () => {
         <h1 className="text-[32px] text-[#244D3F] font-bold">12</h1>
         <p className="text-[18px] text-[#64748B]">Interactions This Month</p>
     </div>
+
   </div>;
 };
 
