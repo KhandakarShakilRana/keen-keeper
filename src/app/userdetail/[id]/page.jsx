@@ -2,11 +2,11 @@
 import { useParams } from 'next/navigation'
 import React from 'react'
 
-const page = ({params}) => {
+const Detail = ({params}) => {
     const {id} = useParams()
   return (
     <div>{id}</div>
   )
 }
 
-export default page
+export default Detail
