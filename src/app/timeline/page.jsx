@@ -7,7 +7,10 @@ import { MdOutlineSnooze } from 'react-icons/md';
 
 const Timeline = () => {
   const { activities} = useFriends();
-  console.log("hi", activities);
+
+  if (activities.length === 0) {
+    return <p className="text-center mt-10">No activity yet</p>;
+  }
   return (
     <div className="max-w-300 w-full mx-auto py-5">
       <div className='my-6 text-[48px] text-[#1F2937] font-bold'>Timeline</div>
