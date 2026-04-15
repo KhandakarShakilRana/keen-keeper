@@ -1,5 +1,6 @@
 "use client";
 
+import NoActivity from "@/components/NoActivity";
 import { useFriends } from "@/context/FriendsContext";
 import React, { useState } from "react";
 import { FaVideo } from "react-icons/fa";
@@ -18,11 +19,12 @@ const Timeline = () => {
       : activities.filter((a) => a.type === filter);
 
   if (activities.length === 0) {
-    return <p className="text-center mt-10">No activity yet</p>;
+    return  <NoActivity></NoActivity>;
   }
 
   return (
     <div className="max-w-300 w-full mx-auto py-5">
+     
       
 
       <div className="flex justify-between items-center my-6">
@@ -31,7 +33,6 @@ const Timeline = () => {
       <div>
         <select  value={filter}
   onChange={(e) => setFilter(e.target.value)} defaultValue="Filter Timeline" className="select">
-  <option disabled={true}>Filter Timeline</option>
   <option value="All">All</option>
   <option value="Call">Call</option>
   <option value="Text">Text</option>

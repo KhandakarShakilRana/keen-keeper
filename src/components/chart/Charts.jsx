@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import NoActivity from "@/components/NoActivity";
 import { useFriends } from "@/context/FriendsContext";
 import { PieChart, Pie, Tooltip, Cell } from "recharts";
 
@@ -30,11 +31,12 @@ const Charts = () => {
   const COLORS = ["#7C3AED", "#1F4D3F", "#34A853"];
 
   if (activities.length === 0) {
-    return <p className="text-center mt-10">No activity yet</p>;
+    return <NoActivity></NoActivity>;
   }
 
   return (
     <div className="max-w-300 mx-auto py-6">
+        <div className='my-6 text-[48px] text-[#1F2937] font-bold'>Friendship Analytics</div>
       <div className="shadow-md p-6 rounded-md flex flex-col items-center justify-center">
        <div className="text-left w-full text-[#244D3F]">
         By Interaction Type
