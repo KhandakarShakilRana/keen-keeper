@@ -11,7 +11,6 @@ const Detail = ({ params }) => {
   const { friends, loading, activities, addActivity } = useFriends();
   const { id } = useParams();
   const friend = friends.find((f) => f.id == id);
-  console.log(activities);
   if (loading) {
     return <div>Loading...</div>;
   }
