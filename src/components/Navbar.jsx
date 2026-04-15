@@ -16,9 +16,9 @@ const Navbar = () => {
     }
   return <div className="max-w-300 w-full mx-auto py-5">
     <div className="flex justify-between items-center">
-        <div className="text-[24px]">
+        <Link href={"/"} className="text-[24px]">
         <span className="font-bold  text-[#1F2937]">Keen</span><span className="text-[#244D3F] font-semibold">Keeper</span>
-    </div>
+    </Link>
     <div className="flex gap-4">
 <Link href={"/"}><button className={`flex items-center gap-2  px-4 py-2 rounded-xl ${pathStyle("/")}`}><GrHomeRounded />Home</button></Link>
         

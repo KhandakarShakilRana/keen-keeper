@@ -36,6 +36,9 @@ const Charts = () => {
   return (
     <div className="max-w-300 mx-auto py-6">
       <div className="shadow-md p-6 rounded-md flex flex-col items-center justify-center">
+       <div className="text-left w-full text-[#244D3F]">
+        By Interaction Type
+       </div>
         <PieChart width={300} height={300}>
           <Pie
             data={data}

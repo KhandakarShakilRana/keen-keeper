@@ -10,6 +10,7 @@ export default function Home() {
     <HomeStats></HomeStats>
     <hr className="my-10 w-full border-gray-300"></hr>
     <Friends></Friends>
+    
     </div>
   );
 }
