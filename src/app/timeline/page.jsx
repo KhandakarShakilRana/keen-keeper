@@ -5,6 +5,9 @@ import React, { useState } from "react";
 import { FaVideo } from "react-icons/fa";
 import { IoIosCall, IoMdText } from "react-icons/io";
 
+
+
+
 const Timeline = () => {
   const { activities } = useFriends();
   const [filter, setFilter] = useState("All");
@@ -30,9 +33,9 @@ const Timeline = () => {
   onChange={(e) => setFilter(e.target.value)} defaultValue="Filter Timeline" className="select">
   <option disabled={true}>Filter Timeline</option>
   <option value="All">All</option>
-  <option>Call</option>
-  <option>Text</option>
-  <option>Video</option>
+  <option value="Call">Call</option>
+  <option value="Text">Text</option>
+  <option value="Video">Video</option>
 </select>
       </div>
 
