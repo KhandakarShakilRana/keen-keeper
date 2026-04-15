@@ -1,18 +1,22 @@
 "use client"
 import { useFriends } from '@/context/FriendsContext';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
 const Friends = () => {
-    const { friends } = useFriends();
+    const { friends , loading } = useFriends();
+
+     if (loading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div>
         <div className='text-[#244D3F] text-[24px] font-semibold mb-4'>Your Friends</div>
             <div className='grid grid-cols-4 gap-4'>
             {
                 friends.map(d=> {
-                    return <Link href={`userdetail/${d.id}`}  className='shadow-xl py-4 text-center' key={d.id}>
+                    return <Link href={`userdetail/${d.id}`}  className='shadow-md py-4 text-center' key={d.id}>
                         <img src={d.picture} alt="" className='mx-auto rounded-full mb-4' />
                         <h1 className='text-[#244D3F] text-[20px] font-bold mb-2'>{d.name}</h1>
                         <p className='text-[#64748B] text-[12px] mb-4'>{d.days_since_contact}d ago</p>

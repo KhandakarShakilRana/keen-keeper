@@ -7,7 +7,7 @@
     "days_since_contact": 18,
     "status": "overdue",
     "tags": ["college", "close friend"],
-    "bio": "We studied computer science together at university. Used to build small projects and play cricket on weekends.",
+    "bio": "We studied computer science together at university.",
     "goal": 14,
     "next_due_date": "2026-03-28"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 10,
     "status": "almost due",
     "tags": ["work", "design team"],
-    "bio": "Worked together on multiple UI/UX projects. Always shares great design feedback and ideas.",
+    "bio": "Worked together on multiple UI/UX projects.",
     "goal": 12,
     "next_due_date": "2026-04-16"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 20,
     "status": "overdue",
     "tags": ["school", "best friend"],
-    "bio": "We’ve been friends since school. We usually catch up over long phone calls.",
+    "bio": "We’ve been friends since school.",
     "goal": 15,
     "next_due_date": "2026-03-30"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 11,
     "status": "almost due",
     "tags": ["startup", "co-founder"],
-    "bio": "Started a small tech startup together. We discuss ideas and plans frequently.",
+    "bio": "Started a small tech startup together.",
     "goal": 12,
     "next_due_date": "2026-04-17"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["family", "cousin"],
-    "bio": "My cousin who recently moved to Dhaka. We meet occasionally for dinner.",
+    "bio": "My cousin who recently moved to Dhaka.",
     "goal": 7,
     "next_due_date": "2026-04-18"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 16,
     "status": "overdue",
     "tags": ["football", "teammate"],
-    "bio": "We play football together every Friday. Haven’t seen him in a while.",
+    "bio": "We play football together every Friday.",
     "goal": 14,
     "next_due_date": "2026-04-01"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 8,
     "status": "on-track",
     "tags": ["online friend", "developer"],
-    "bio": "Met through an online developer community. We share coding resources and tips.",
+    "bio": "Met through an online developer community.",
     "goal": 14,
     "next_due_date": "2026-04-22"
   }
