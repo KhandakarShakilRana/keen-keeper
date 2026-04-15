@@ -11,7 +11,7 @@ const Navbar = () => {
 
     const pathStyle = (path)=>{
       return  `${
-      pathName === path ? "bg-green-500 text-white" : ""
+      pathName === path ? "bg-[#244D3F] text-white" : ""
     }`
     }
   return <div className="max-w-300 w-full mx-auto py-5">
