@@ -13,7 +13,7 @@ const Friends = () => {
   return (
     <div>
         <div className='text-[#244D3F] text-[24px] font-semibold mb-4'>Your Friends</div>
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
             {
                 friends.map(d=> {
                     return <Link href={`userdetail/${d.id}`}  className='shadow-md py-4 text-center' key={d.id}>

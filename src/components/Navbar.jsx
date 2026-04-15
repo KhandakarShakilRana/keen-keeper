@@ -15,7 +15,7 @@ const Navbar = () => {
     }`
     }
   return <div className="max-w-300 w-full mx-auto py-5">
-    <div className="flex justify-between items-center">
+    <div className="flex flex-col md:flex-row justify-between items-center gap-4">
         <Link href={"/"} className="text-[24px]">
         <span className="font-bold  text-[#1F2937]">Keen</span><span className="text-[#244D3F] font-semibold">Keeper</span>
     </Link>
