@@ -7,7 +7,7 @@ const Friends = () => {
     const { friends , loading } = useFriends();
 
      if (loading) {
-    return <div>Loading...</div>;
+    return <div className='flex items-center justify-center'><span className="loading loading-spinner loading-xl"></span></div>;
   }
 
   return (
