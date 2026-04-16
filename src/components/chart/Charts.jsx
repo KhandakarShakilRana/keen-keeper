@@ -36,7 +36,7 @@ const Charts = () => {
 
   return (
     <div className="max-w-300 mx-auto py-6">
-        <div className='my-6 text-[48px] text-[#1F2937] font-bold'>Friendship Analytics</div>
+        <div className='my-6 text-[32px] md:text-[48px] text-[#1F2937] font-bold'>Friendship Analytics</div>
       <div className="shadow-md p-6 rounded-md flex flex-col items-center justify-center">
        <div className="text-left w-full text-[#244D3F]">
         By Interaction Type
