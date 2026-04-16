@@ -11,8 +11,8 @@ const Detail = ({ params }) => {
   const { friends, loading, activities, addActivity } = useFriends();
   const { id } = useParams();
   const friend = friends.find((f) => f.id == id);
-  if (loading) {
-    return <div>Loading...</div>;
+   if (loading) {
+    return <div className='flex items-center justify-center'><span className="loading loading-spinner loading-xl"></span></div>;
   }
 
   return (
