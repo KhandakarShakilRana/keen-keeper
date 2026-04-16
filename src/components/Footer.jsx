@@ -24,7 +24,7 @@ const Footer = () => {
             <FaInstagramSquare className="text-[30px]" />
             <FaTwitterSquare className="text-[30px]" />
           </div>
-          <div className="flex justify-between items-center py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center py-6">
             <h1>© 2026 KeenKeeper. All rights reserved.</h1>
             <div className="flex gap-8">
               <p>Privacy Policy</p> <p>Terms of Service</p> <p>Cookies</p>

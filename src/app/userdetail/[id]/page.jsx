@@ -16,7 +16,7 @@ const Detail = ({ params }) => {
   }
 
   return (
-    <div className="max-w-300 w-full mx-auto py-5 grid grid-cols-3 gap-4">
+    <div className="max-w-300 w-full mx-auto py-5 grid grid-cols-1 md:grid-cols-3 gap-4">
       <div className="shadow-md rounded-md p-8">
         <div className="flex flex-col items-center gap-2">
           <img className="w-25 rounded-full " src={friend.picture} />
@@ -63,22 +63,22 @@ const Detail = ({ params }) => {
       <div className="col-span-2 ">
         <div className="flex items-center justify-between gap-4">
           <div className="text-center shadow-md w-full p-8">
-            <h2 className="text-[30px] rounded-md font-bold text-[#244D3F]">
+            <h2 className="text-[20px] md:text-[30px] rounded-md font-bold text-[#244D3F]">
               {friend.days_since_contact}
             </h2>
-            <p className="text-[18px] text-[#64748B]">Days Since Contact</p>
+            <p className="text-[14px] md:text-[18px] text-[#64748B]">Days Since Contact</p>
           </div>
           <div className="text-center shadow-md w-full p-8">
-            <h2 className="text-[30px] rounded-md font-bold text-[#244D3F]">
+            <h2 className="text-[20px] md:text-[30px] rounded-md font-bold text-[#244D3F]">
               {friend.goal}
             </h2>
-            <p className="text-[18px] text-[#64748B]">Days Since Contact</p>
+            <p className="text-[14px] md:text-[18px] text-[#64748B]">Days Since Contact</p>
           </div>
           <div className="text-center rounded-md shadow-md w-full p-8">
-            <h2 className="text-[30px] font-bold text-[#244D3F]">
+            <h2 className="text-[20px] md:text-[30px] font-bold text-[#244D3F]">
               {friend.next_due_date}
             </h2>
-            <p className="text-[18px] text-[#64748B]">Days Since Contact</p>
+            <p className="text-[14px] md:text-[18px] text-[#64748B]">Days Since Contact</p>
           </div>
         </div>
         <div className="p-8 shadow-md rounded-md">
